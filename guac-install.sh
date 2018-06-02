@@ -66,7 +66,7 @@ then
     else
         LIBPNG="libpng-dev"
     fi
-elif [[ "${NAME}" == *"Debian"* ]]
+elif [[ "${NAME}" == *"bian"* ]]
 then
     JPEGTURBO="libjpeg62-turbo-dev"
     if [[ "${PRETTY_NAME}" == *"stretch"* ]]
